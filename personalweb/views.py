@@ -7,7 +7,7 @@ base = Blueprint('base', __name__)
 @base.route('/')
 @base.route('/home')
 def home():
-    return render_template('home.html')
+    return render_template('index.html')
 
 @base.route('/portfolio')
 def portfolio():
