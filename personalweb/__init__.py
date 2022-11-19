@@ -6,8 +6,7 @@ app = Flask(__name__)
 
 # App configuration
 
-app.config.from_object('config.DevelopmentConfig')
-db = SQLAlchemy(app)
+#app.config.from_object('config.DevelopmentConfig')
 
 # Import views and blueprints
 
