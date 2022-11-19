@@ -69,12 +69,13 @@ hr{
 }
 
 .principal .text{
-    width: 50%;
+    width: 450px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
     justify-content: center;
-    padding: 10% 5%;
+    padding: 0 5%;
 }
 
 .principal .imb-box .icons{
@@ -86,9 +87,29 @@ hr{
     padding: 0 10px;
 }
 
-/*PRINCIPAL - PRESENTATION*/
+/*PRINCIPAL - INTROCARD*/
+
+.principal .text{
+    display: flex;
+    flex-shrink: 0;
+}
 
 .principal .text .title{
-    font-size: 34px;
+    font-size: 64px;
     font-weight: 900;
+    font-family: 'Pacifico', cursive;
+    color: 	#d84f4f;
+    padding: -1;
+}
+
+.principal .text .subtitle{
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.principal .text .subtext{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 0;
 }
