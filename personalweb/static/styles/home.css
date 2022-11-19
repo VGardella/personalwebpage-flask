@@ -24,6 +24,7 @@ body{
     margin-right: 30px;
     display: flex;
     gap: 20px;
+    font-weight: 500;
 }
 
 .header a{
@@ -240,4 +241,28 @@ hr{
 .expectations .subtext{
     font-size: 30px;
     font-weight: 300;
+}
+
+/*FOOTER*/
+
+footer .container{
+    background-color: #fbe9e9;
+    color: #d84f4f;
+    height: 75px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+footer .container .created-by{
+    width: 200px;
+    text-align: center;
+}
+
+footer .container .contact{
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    gap: 30px;
 }
