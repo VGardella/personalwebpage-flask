@@ -13,6 +13,10 @@ def home():
 def portfolio():
     return render_template('portfolio.html')
 
-@base.route('/background')
-def background():
-    return render_template('background.html')
+@base.route('/education')
+def education():
+    return render_template('education.html')
+
+@base.route('/work')
+def work():
+    return render_template('work.html')
