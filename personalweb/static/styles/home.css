@@ -117,18 +117,25 @@ hr{
 
 /*INTRODUCTION*/
 
+/*INTRODUCTION - TEXT*/
+
 .introduction{
     background-color: #ebebeb;
     padding: 5% 10%;
     color: #525252;
+    display: flex;
+    justify-content: center;
 }
 
 .introduction .container{
     background-color: #f9b5b5;
     border: outset 	#d84f4f;
     display: flex;
+    margin: 0;
     flex-shrink: 1;
     padding: 50px;
+    height: 400px;
+    width: 70%;
 }
 
 .container .text{
