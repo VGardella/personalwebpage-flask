@@ -5,9 +5,9 @@ class Config:
 
     #Database configuration
 
-class ProductionConfig:
+class ProductionConfig(Config):
     DEBUG = False
 
-class DevelopmentConfig:
+class DevelopmentConfig(Config):
     DEBUG = True
     TESTING = True
