@@ -6,7 +6,7 @@ body{
 /*HEADER*/
 
 .header{
-    background-color: #131925;
+    background-color: #fbe9e9;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -28,5 +28,46 @@ body{
 
 .header a{
     text-decoration: none;
-    color: #ffffff;
+    color: #f88d8d;
 }
+
+/*BODY*/
+
+/*PRINCIPAL*/
+
+.principal{
+    padding: 100px 20%;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.principal .img-box{
+    width: 500px;
+    height: 500px;
+    border: 2px solid #aaaaaa;
+    display: flex;
+}
+
+/*
+}
+
+.principal img{
+    border: 2px solid white;
+    box-shadow: 8px 8px 5px rgb(107, 107, 107);
+    width: 200px;
+    height: 200px;
+}
+
+.principal .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 5%;
+    gap: 20px;
+}
+
+.principal .text .title{
+    font-size: 34px;
+    font-weight: 900;
+}
+*/
