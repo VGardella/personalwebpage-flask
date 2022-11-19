@@ -1,10 +1,58 @@
 {% extends 'base.html' %}
 
+{% block style %} <link rel="stylesheet" href="/static/styles/home.css"> {% endblock %}
+
 {% block title %} Victoria's Personal Website - Homepage {% endblock %}
 
 {% block content %}
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi id saepe nihil eligendi facilis asperiores voluptate
-    alias quae quod odit animi ut accusamus tempora, incidunt eius officiis quia tempore laborum.</p>
-
+<div class="principal">
+    <img src="http://placekitten.com/500" alt="My Photo">
+    <div class="text">
+        <div class="title">Wellcome to my Personal Website!</div>
+        <div class="subtext">This site was made using Flask not only as a project in itself,
+            but as a way to tell you a little bit about me and show my resume in a atractive format. I hope you enjoy my
+            work!
+        </div>
+    </div>
+</div>
+<div class="introduction">
+    <div class="text">
+        <div class="title">About myself:</div>
+        <div class="subtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto veritatis vitae
+            tempora
+            laboriosam suscipit saepe explicabo, unde, soluta quam commodi, dolorum qui neque nisi libero inventore?
+            Voluptates minima quasi ipsam?
+        </div>
+    </div>
+    <img src="http://placekitten.com/600/400" alt="Image Slider">
+</div>
+<div class="likes-dislikes">
+    <div class="title">Likes and Dislikes</div>
+    <div class="imgs">
+        <div class="container">
+            <img src="http://placekitten.com/100/100" alt="">
+            <div class="like1"></div>
+        </div>
+        <div class="container">
+            <img src="http://placekitten.com/100/100" alt="">
+            <div class="like2"></div>
+        </div>
+        <div class="container">
+            <img src="http://placekitten.com/100/100" alt="">
+            <div class="like3"></div>
+        </div>
+        <div class="container">
+            <img src="http://placekitten.com/100/100" alt="">
+            <div class="like4"></div>
+        </div>
+    </div>
+</div>
+<div class="future">
+    <div class="expectations">
+        <div class="title">Looking for Work!</div>
+        <div class="subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero vel necessitatibus ratione
+            perspiciatis aliquam, assumenda consectetur, dolorum excepturi deserunt beatae repellat fuga! Molestiae
+            voluptates laudantium et praesentium dolore rem quod.</div>
+    </div>
+</div>
 {% endblock %}
