@@ -33,7 +33,7 @@ body{
 
 /*BODY*/
 
-/*PRINCIPAL*/
+/*PRINCIPAL - PROFILE CARD*/
 
 .principal{
     padding: 100px 20%;
@@ -85,6 +85,8 @@ hr{
     width: 40px;
     padding: 0 10px;
 }
+
+/*PRINCIPAL - PRESENTATION*/
 
 .principal .text .title{
     font-size: 34px;
