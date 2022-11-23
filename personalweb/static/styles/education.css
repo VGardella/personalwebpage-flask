@@ -28,19 +28,62 @@
     color: #525252;
 }
 
-/*TABLE*/
+/*CERTIFICATES*/
 
-.second{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+.section-title{
+    margin: 100px 80px;
+    font-size: 25px;
+    color: #525252;
 }
+
+.section-title h2{
+    font-weight: 500;
+}
+
+.education{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.certificate{
+    width: 250px;
+    height: 220px;
+    border: 2px solid #aaaaaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 0 0 10px 3px #bbbbbb;
+    vertical-align: top;
+    color: #525252;
+}
+
+.certificate img{
+    width: 100px;
+    height: 100px;
+}
+
+.certificate .text .title{
+    padding: 10px;
+    font-weight: 700;
+}
+
+
+/*TABLE*/
 
 .courses {
     margin: 100px 0;
     padding: 20px;
     border-collapse: collapse;
     box-shadow: 0 0 10px 3px #bbbbbb;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .courses thead tr{
