@@ -28,3 +28,51 @@
     color: #525252;
 }
 
+/*TABLE*/
+
+.second{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.courses {
+    margin: 100px 0;
+    padding: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px 3px #bbbbbb;
+}
+
+.courses thead tr{
+    background-color: #427e35;
+    color: #ffffff;
+    text-align: left;
+}
+
+.courses th,
+.courses td{
+    padding: 12px 15px;
+    min-width: 150px;
+}
+
+.courses tbody tr{
+    border-bottom: 1px solid #b9eead;
+    font-weight: 500;
+    color: #525252;
+}
+
+.courses tbody tr .title{
+    width: 350px;
+}
+
+.courses tbody tr:nth-of-type(even) {
+    background-color: #e1fcda;
+}
+
+.courses tbody tr:last-of-type {
+    border-bottom: 2px solid #427e35;
+}
+
+.courses tbody tr:hover {
+    color: #427e35;
+}
