@@ -1,0 +1,31 @@
+/*PRINCIPAL*/
+
+.principal{
+    background-image: url(/static/portfolio-background.png);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal .container{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal .container .title{
+    font-family: 'Pacifico', cursive;
+    font-size: 64px;
+    font-weight: 600;
+    color: #d84f4f;
+    text-align: center;
+}
+
+.principal .container .subtext{
+    font-size: 30px;
+    font-weight: 300;
+    color: #525252;
+    text-align: center;
+}
+
